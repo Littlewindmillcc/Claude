@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Terminal — Design System Login</title>
+    <link rel="stylesheet" href="styles-login.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-title">Claude Terminal — Design System Access</div>
+            <div class="terminal-controls">
+                <span class="control minimize">−</span>
+                <span class="control maximize">☐</span>
+                <span class="control close">✕</span>
+            </div>
+        </div>
+        
+        <div class="terminal-body">
+            <div id="terminalOutput" class="terminal-output">
+                <div class="line welcome">
+                    <span class="prompt">$</span> <span class="command">claude-terminal --authorize-design-system</span>
+                </div>
+                <div class="line">
+                    <span class="text">>> Initializing Claude.ai authentication...</span>
+                </div>
+                <div class="line">
+                    <span class="text">>> Checking device credentials...</span>
+                </div>
+            </div>
+
+            <div class="terminal-input-section">
+                <form id="loginForm" class="login-form">
+                    <!-- Email Input -->
+                    <div class="input-group hidden" id="emailGroup">
+                        <label class="input-label">
+                            <span class="prompt">$</span>
+                            <span class="input-prefix">email</span>
+                        </label>
+                        <input 
+                            type="email" 
+                            id="emailInput" 
+                            class="terminal-input" 
+                            placeholder="your.email@example.com"
+                            autocomplete="email"
+                        >
+                    </div>
+
+                    <!-- Password Input -->
+                    <div class="input-group hidden" id="passwordGroup">
+                        <label class="input-label">
+                            <span class="prompt">$</span>
+                            <span class="input-prefix">password</span>
+                        </label>
+                        <input 
+                            type="password" 
+                            id="passwordInput" 
+                            class="terminal-input" 
+                            placeholder="••••••••••••"
+                            autocomplete="current-password"
+                        >
+                    </div>
+
+                    <!-- 2FA Code Input -->
+                    <div class="input-group hidden" id="twoFactorGroup">
+                        <label class="input-label">
+                            <span class="prompt">$</span>
+                            <span class="input-prefix">2fa-code</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="twoFactorInput" 
+                            class="terminal-input" 
+                            placeholder="000000"
+                            maxlength="6"
+                            autocomplete="off"
+                        >
+                        <div class="hint">Enter 6-digit code from authenticator app</div>
+                    </div>
+
+                    <!-- Design System Scopes -->
+                    <div class="input-group hidden" id="scopesGroup">
+                        <div class="input-label">
+                            <span class="prompt">$</span>
+                            <span class="input-prefix">authorize-scopes</span>
+                        </div>
+                        <div class="scopes-list">
+                            <label class="scope-item">
+                                <input type="checkbox" name="scope" value="design:read" checked>
+                                <span class="scope-name">design:read</span>
+                                <span class="scope-desc">Read design system assets</span>
+                            </label>
+                            <label class="scope-item">
+                                <input type="checkbox" name="scope" value="design:write" checked>
+                                <span class="scope-name">design:write</span>
+                                <span class="scope-desc">Modify design system components</span>
+                            </label>
+                            <label class="scope-item">
+                                <input type="checkbox" name="scope" value="design:admin">
+                                <span class="scope-name">design:admin</span>
+                                <span class="scope-desc">Manage design system settings</span>
+                            </label>
+                            <label class="scope-item">
+                                <input type="checkbox" name="scope" value="workflows:execute" checked>
+                                <span class="scope-name">workflows:execute</span>
+                                <span class="scope-desc">Execute design workflows</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Status Messages -->
+                    <div id="statusMessage" class="status-message hidden"></div>
+
+                    <!-- Action Buttons -->
+                    <div class="button-group">
+                        <button 
+                            type="button" 
+                            id="nextBtn" 
+                            class="terminal-button primary"
+                            style="display: none;"
+                        >
+                            Next →
+                        </button>
+                        <button 
+                            type="button" 
+                            id="submitBtn" 
+                            class="terminal-button primary"
+                            style="display: none;"
+                        >
+                            Authorize →
+                        </button>
+                        <button 
+                            type="button" 
+                            id="backBtn" 
+                            class="terminal-button secondary"
+                            style="display: none;"
+                        >
+                            ← Back
+                        </button>
+                        <button 
+                            type="button" 
+                            id="retryBtn" 
+                            class="terminal-button secondary"
+                            style="display: none;"
+                        >
+                            Retry
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loadingSpinner" class="loading-spinner hidden">
+            <div class="spinner"></div>
+            <div class="loading-text" id="loadingText">Authenticating...</div>
+        </div>
+
+        <!-- Success State -->
+        <div id="successState" class="success-state hidden">
+            <div class="success-icon">✓</div>
+            <div class="success-title">Authorization Complete</div>
+            <div class="success-message">Design system access has been granted.</div>
+            <div class="token-info">
+                <div class="token-label">Access Token:</div>
+                <div class="token-display" id="tokenDisplay">••••••••••••••••</div>
+            </div>
+            <button id="copyTokenBtn" class="terminal-button primary">Copy Token</button>
+            <button id="homeBtn" class="terminal-button secondary">Back to Home</button>
+        </div>
+    </div>
+
+    <script src="login-script.js"></script>
+</body>
+</html>
