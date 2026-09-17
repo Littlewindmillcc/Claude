@@ -1,0 +1,469 @@
+/* Terminal Login Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.terminal-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #0d0d0d;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+/* Terminal Header */
+.terminal-header {
+    background: #151515;
+    border-bottom: 1px solid #2d2d2d;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.terminal-title {
+    font-size: 13px;
+    color: #888;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.terminal-controls {
+    display: flex;
+    gap: 12px;
+}
+
+.control {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s;
+    font-size: 14px;
+}
+
+.control:hover {
+    color: #999;
+}
+
+.control.close:hover {
+    color: #ef4444;
+}
+
+/* Terminal Body */
+.terminal-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.terminal-output {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.line {
+    margin-bottom: 8px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.line.welcome {
+    color: #22c55e;
+}
+
+.line .text {
+    color: #8E8A7E;
+}
+
+.prompt {
+    color: #d97706;
+    margin-right: 6px;
+}
+
+.command {
+    color: #e0e0e0;
+    font-weight: 500;
+}
+
+/* Terminal Input Section */
+.terminal-input-section {
+    flex-shrink: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group.hidden {
+    display: none;
+}
+
+.input-label {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
+.input-prefix {
+    margin-left: 6px;
+    color: #888;
+}
+
+.terminal-input {
+    background: #1a1a1a;
+    border: 1px solid #2d2d2d;
+    color: #e0e0e0;
+    padding: 10px 12px;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    font-size: 13px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.terminal-input:focus {
+    border-color: #d97706;
+    box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.15);
+}
+
+.terminal-input::placeholder {
+    color: #555;
+}
+
+.hint {
+    font-size: 11px;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* Scopes List */
+.scopes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+    padding: 12px;
+    background: #151515;
+    border: 1px solid #2d2d2d;
+    border-radius: 4px;
+}
+
+.scope-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.scope-item:hover {
+    background: #1a1a1a;
+}
+
+.scope-item input[type="checkbox"] {
+    margin-top: 3px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: #d97706;
+}
+
+.scope-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #e0e0e0;
+    min-width: 140px;
+}
+
+.scope-desc {
+    font-size: 11px;
+    color: #666;
+    flex: 1;
+}
+
+/* Status Message */
+.status-message {
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.status-message.hidden {
+    display: none;
+}
+
+.status-message.error {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.status-message.success {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.status-message.warning {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.terminal-button {
+    padding: 8px 16px;
+    border: 1px solid #2d2d2d;
+    background: transparent;
+    color: #e0e0e0;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: none;
+}
+
+.terminal-button:hover:not(:disabled) {
+    border-color: #d97706;
+    background: rgba(217, 119, 6, 0.1);
+    color: #f59e0b;
+}
+
+.terminal-button.primary {
+    border-color: #d97706;
+    color: #d97706;
+}
+
+.terminal-button.primary:hover:not(:disabled) {
+    background: rgba(217, 119, 6, 0.15);
+    color: #f59e0b;
+}
+
+.terminal-button.secondary {
+    border-color: #555;
+    color: #888;
+}
+
+.terminal-button.secondary:hover:not(:disabled) {
+    border-color: #888;
+    color: #e0e0e0;
+}
+
+.terminal-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+
+.loading-spinner.hidden {
+    display: none;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #2d2d2d;
+    border-top-color: #d97706;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-bottom: 16px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-text {
+    color: #888;
+    font-size: 12px;
+}
+
+/* Success State */
+.success-state {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 100;
+    gap: 24px;
+}
+
+.success-state.hidden {
+    display: none;
+}
+
+.success-icon {
+    font-size: 64px;
+    color: #22c55e;
+    animation: successPulse 0.6s ease-out;
+}
+
+@keyframes successPulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.success-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+
+.success-message {
+    font-size: 13px;
+    color: #888;
+}
+
+.token-info {
+    background: #151515;
+    border: 1px solid #2d2d2d;
+    border-radius: 4px;
+    padding: 16px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.token-label {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.token-display {
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+    color: #d97706;
+    word-break: break-all;
+    line-height: 1.6;
+    padding: 8px;
+    background: #0d0d0d;
+    border-radius: 3px;
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Scrollbar Styling */
+.terminal-output::-webkit-scrollbar {
+    width: 8px;
+}
+
+.terminal-output::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.terminal-output::-webkit-scrollbar-thumb {
+    background: #2d2d2d;
+    border-radius: 4px;
+}
+
+.terminal-output::-webkit-scrollbar-thumb:hover {
+    background: #3d3d3d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .terminal-body {
+        padding: 16px;
+    }
+
+    .terminal-input {
+        font-size: 16px; /* Prevents mobile zoom on focus */
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .terminal-button {
+        width: 100%;
+    }
+
+    .success-state {
+        padding: 20px;
+    }
+
+    .token-info {
+        max-width: 100%;
+    }
+}

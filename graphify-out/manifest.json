@@ -1,0 +1,140 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1789426308.6977792,
+    "seen": 1789517616.7047155,
+    "ast_hash": "dbe039a15c5c2eb60e34dccc1af0cbb5",
+    "semantic_hash": "dbe039a15c5c2eb60e34dccc1af0cbb5"
+  },
+  ".codex/hooks.json": {
+    "mtime": 1789426343.4285152,
+    "seen": 1789517616.704718,
+    "ast_hash": "005ac71c84af2cae38e255e2b9de2411",
+    "semantic_hash": "005ac71c84af2cae38e255e2b9de2411"
+  },
+  "login-script.js": {
+    "mtime": 1788875028.5122128,
+    "seen": 1789517616.7047195,
+    "ast_hash": "8acc17ed8a9e9cc9a01422577cda8a6d",
+    "semantic_hash": "8acc17ed8a9e9cc9a01422577cda8a6d"
+  },
+  "package.json": {
+    "mtime": 1789425682.3499928,
+    "seen": 1789517616.704721,
+    "ast_hash": "389c6cf81809669db1bdfffb5d6c02fa",
+    "semantic_hash": "389c6cf81809669db1bdfffb5d6c02fa"
+  },
+  "script.js": {
+    "mtime": 1788875028.5122128,
+    "seen": 1789517616.704722,
+    "ast_hash": "3d767514fd86a5ca933446a71ba5e859",
+    "semantic_hash": "3d767514fd86a5ca933446a71ba5e859"
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1789426308.6973825,
+    "seen": 1789517616.7047231,
+    "ast_hash": "9b31786b637be3c13978bec4c2330752",
+    "semantic_hash": "9b31786b637be3c13978bec4c2330752"
+  },
+  "AGENTS.md": {
+    "mtime": 1789426343.4283187,
+    "seen": 1789517616.7047246,
+    "ast_hash": "6a47d64fcc136324ca395065a707ef76",
+    "semantic_hash": "6a47d64fcc136324ca395065a707ef76"
+  },
+  "CLAUDE.md": {
+    "mtime": 1789426308.697597,
+    "seen": 1789517616.7047324,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
+  },
+  "README.md": {
+    "mtime": 1788875028.4926088,
+    "seen": 1789517616.7047343,
+    "ast_hash": "5869a464020f5bcb33c2bb65a3d969b7",
+    "semantic_hash": "5869a464020f5bcb33c2bb65a3d969b7"
+  },
+  "design-login.html": {
+    "mtime": 1788875028.4926088,
+    "seen": 1789517616.704735,
+    "ast_hash": "657aafdfe837ebc607e3535dfaca51a9",
+    "semantic_hash": "657aafdfe837ebc607e3535dfaca51a9"
+  },
+  "flows/01-welcome/email-1-welcome.html": {
+    "mtime": 1788875028.4974902,
+    "seen": 1789517616.7047358,
+    "ast_hash": "3e02fd8fb4b020d51e2e2af29046b41f",
+    "semantic_hash": "3e02fd8fb4b020d51e2e2af29046b41f"
+  },
+  "flows/01-welcome/email-2-bestsellers.html": {
+    "mtime": 1788875028.4997294,
+    "seen": 1789517616.7047367,
+    "ast_hash": "06e87112983107ceaae7b793d90fbfb5",
+    "semantic_hash": "06e87112983107ceaae7b793d90fbfb5"
+  },
+  "flows/01-welcome/email-3-reminder.html": {
+    "mtime": 1788875028.4997294,
+    "seen": 1789517616.7047374,
+    "ast_hash": "966b22b071cf8dc5f68c4c7df7af2cc3",
+    "semantic_hash": "966b22b071cf8dc5f68c4c7df7af2cc3"
+  },
+  "flows/02-abandoned-cart/email-1-reminder.html": {
+    "mtime": 1788875028.500609,
+    "seen": 1789517616.7047386,
+    "ast_hash": "c1b3a32bf016518d6e12b6bcf82b2b63",
+    "semantic_hash": "c1b3a32bf016518d6e12b6bcf82b2b63"
+  },
+  "flows/02-abandoned-cart/email-2-social-proof.html": {
+    "mtime": 1788875028.5033796,
+    "seen": 1789517616.7047393,
+    "ast_hash": "e2a6647366a2fdb63c7712e03fa9b552",
+    "semantic_hash": "e2a6647366a2fdb63c7712e03fa9b552"
+  },
+  "flows/02-abandoned-cart/email-3-last-chance.html": {
+    "mtime": 1788875028.5033796,
+    "seen": 1789517616.70474,
+    "ast_hash": "e4ffec6f35a85c01590d8460223d56c6",
+    "semantic_hash": "e4ffec6f35a85c01590d8460223d56c6"
+  },
+  "flows/03-post-purchase/email-1-thank-you.html": {
+    "mtime": 1788875028.5046089,
+    "seen": 1789517616.7047408,
+    "ast_hash": "9c5da75052cf8fa7de011d82623776be",
+    "semantic_hash": "9c5da75052cf8fa7de011d82623776be"
+  },
+  "flows/03-post-purchase/email-2-review-request.html": {
+    "mtime": 1788875028.5074291,
+    "seen": 1789517616.7047417,
+    "ast_hash": "5d2b94fab2201c01b7973e2895fb2439",
+    "semantic_hash": "5d2b94fab2201c01b7973e2895fb2439"
+  },
+  "flows/04-win-back/email-1-we-missed-you.html": {
+    "mtime": 1788875028.5074291,
+    "seen": 1789517616.7047427,
+    "ast_hash": "40aaa2c528fe62501c5db05d1e68ceb3",
+    "semantic_hash": "40aaa2c528fe62501c5db05d1e68ceb3"
+  },
+  "flows/04-win-back/email-2-final-offer.html": {
+    "mtime": 1788875028.509824,
+    "seen": 1789517616.7047434,
+    "ast_hash": "0df3c50894a83ab88f62853d14610740",
+    "semantic_hash": "0df3c50894a83ab88f62853d14610740"
+  },
+  "flows/05-vip-loyalty/email-1-thank-you-gift.html": {
+    "mtime": 1788875028.509824,
+    "seen": 1789517616.704744,
+    "ast_hash": "808a191353d2fbd641b81f20feba7e08",
+    "semantic_hash": "808a191353d2fbd641b81f20feba7e08"
+  },
+  "flows/05-vip-loyalty/email-2-early-access.html": {
+    "mtime": 1788875028.5122128,
+    "seen": 1789517616.704745,
+    "ast_hash": "b1b2244a4882efcceb7877daf38cb7d3",
+    "semantic_hash": "b1b2244a4882efcceb7877daf38cb7d3"
+  },
+  "index.html": {
+    "mtime": 1788875028.5122128,
+    "seen": 1789517616.7047462,
+    "ast_hash": "85239432d4453fa2e62d15ec792a501e",
+    "semantic_hash": "85239432d4453fa2e62d15ec792a501e"
+  }
+}
