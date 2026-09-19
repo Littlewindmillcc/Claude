@@ -1,25 +1,19 @@
 {
   ".claude/settings.json": {
-    "mtime": 1789426308.6977792,
-    "seen": 1789517616.7047155,
+    "mtime": 1789791589.9686346,
+    "seen": 1789791633.7945247,
     "ast_hash": "dbe039a15c5c2eb60e34dccc1af0cbb5",
     "semantic_hash": "dbe039a15c5c2eb60e34dccc1af0cbb5"
   },
   ".codex/hooks.json": {
-    "mtime": 1789426343.4285152,
-    "seen": 1789517616.704718,
+    "mtime": 1789791589.9698777,
+    "seen": 1789791633.794528,
     "ast_hash": "005ac71c84af2cae38e255e2b9de2411",
     "semantic_hash": "005ac71c84af2cae38e255e2b9de2411"
   },
-  "login-script.js": {
-    "mtime": 1788875028.5122128,
-    "seen": 1789517616.7047195,
-    "ast_hash": "8acc17ed8a9e9cc9a01422577cda8a6d",
-    "semantic_hash": "8acc17ed8a9e9cc9a01422577cda8a6d"
-  },
   "package.json": {
-    "mtime": 1789425682.3499928,
-    "seen": 1789517616.704721,
+    "mtime": 1789791589.9733098,
+    "seen": 1789791633.7945297,
     "ast_hash": "389c6cf81809669db1bdfffb5d6c02fa",
     "semantic_hash": "389c6cf81809669db1bdfffb5d6c02fa"
   },
@@ -30,20 +24,20 @@
     "semantic_hash": "3d767514fd86a5ca933446a71ba5e859"
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1789426308.6973825,
-    "seen": 1789517616.7047231,
+    "mtime": 1789791589.9653096,
+    "seen": 1789791633.7945342,
     "ast_hash": "9b31786b637be3c13978bec4c2330752",
     "semantic_hash": "9b31786b637be3c13978bec4c2330752"
   },
   "AGENTS.md": {
-    "mtime": 1789426343.4283187,
-    "seen": 1789517616.7047246,
+    "mtime": 1789791589.972009,
+    "seen": 1789791633.7945354,
     "ast_hash": "6a47d64fcc136324ca395065a707ef76",
     "semantic_hash": "6a47d64fcc136324ca395065a707ef76"
   },
   "CLAUDE.md": {
-    "mtime": 1789426308.697597,
-    "seen": 1789517616.7047324,
+    "mtime": 1789791589.972009,
+    "seen": 1789791633.7945373,
     "ast_hash": "82efb97a359f5c7290bf2513d14686be",
     "semantic_hash": "82efb97a359f5c7290bf2513d14686be"
   },
@@ -52,12 +46,6 @@
     "seen": 1789517616.7047343,
     "ast_hash": "5869a464020f5bcb33c2bb65a3d969b7",
     "semantic_hash": "5869a464020f5bcb33c2bb65a3d969b7"
-  },
-  "design-login.html": {
-    "mtime": 1788875028.4926088,
-    "seen": 1789517616.704735,
-    "ast_hash": "657aafdfe837ebc607e3535dfaca51a9",
-    "semantic_hash": "657aafdfe837ebc607e3535dfaca51a9"
   },
   "flows/01-welcome/email-1-welcome.html": {
     "mtime": 1788875028.4974902,
