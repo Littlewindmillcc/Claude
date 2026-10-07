@@ -70,14 +70,15 @@ I could not send them through Shopify itself, which is why the test email step m
 ## Policy facts used (from your Refunds & Returns and Shipping policies)
 
 Return address Shop 5, 167 Kelly Street, Scone NSW 2337 · in-store drop-off at Scone or Tamworth (Shop 5, 345-354 Peel
-Street) · pickup is Scone only (167 Kelly Street, opposite Aus Post, under Anytime Fitness) · customer pays
+Street, Tamworth NSW 2340) · pickup is Scone only (167 Kelly Street, opposite Aus Post, under Anytime Fitness) · customer pays
 return postage, Registered Post recommended · refund or exchange or credit usually 5–7 days after the parcel arrives ·
 refunds go to the original payment method · contact us if it hasn't shown after 7 days.
 
 ## To fix in Shopify
 
-Your Tamworth location in Shopify (Settings > Locations) is saved as **432 Peel Street, 2340**, but the emails now
-use **Shop 5, 345-354 Peel Street**. Update the location so receipts and anything else Shopify prints match.
+Your Tamworth location in Shopify (Settings > Locations) is saved as **432 Peel Street, 2340**, but the emails use
+**Shop 5, 345-354 Peel Street, Tamworth NSW 2340** (confirmed). Add "Shop 5" and fix the street number so receipts and
+anything else Shopify prints match.
 
 ## Not covered
 
