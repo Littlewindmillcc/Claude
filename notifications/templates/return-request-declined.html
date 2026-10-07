@@ -1,0 +1,48 @@
+{% assign first_name = customer.first_name | default: shipping_address.first_name | default: billing_address.first_name | default: 'there' %}<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ shop.name }}</title>
+<style>
+  body,table,td,a{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+  table,td{ mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  @media only screen and (max-width:600px){
+    .container{ width:100%!important; }
+    .fluid-pad{ padding-left:22px!important; padding-right:22px!important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#F6F1EA; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<div style="display:none; max-height:0; overflow:hidden; mso-hide:all; opacity:0;">An update on your return request.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F6F1EA;">
+<tr><td align="center" style="padding:32px 16px;">
+<table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background-color:#FAF7F3;">
+<tr><td style="height:5px; line-height:5px; font-size:1px; background-color:#CFE4DA;">&nbsp;</td></tr>
+<tr><td align="center" style="padding:34px 40px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:0.28em; color:#2A2528; text-transform:uppercase;">Little Windmill<br><span style="font-family:Georgia, serif; font-style:italic; font-weight:400; letter-spacing:0.02em; font-size:18px; text-transform:none; color:#6E7E6C;">Clothing Co.</span></td></tr>
+<tr><td align="center" style="padding:6px 40px 0; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; color:#CFE4DA;">&#10022;</td></tr>
+<tr><td class="fluid-pad" style="padding:14px 40px 4px; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:27px; font-weight:700; letter-spacing:-0.01em; line-height:1.25; color:#2A2528;">An update on your return</td></tr>
+<tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">Hi {{ first_name }},</td></tr>
+<tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">Thank you for your return request for order <strong>{{ order_name }}</strong>. Unfortunately we aren't able to approve it this time.</td></tr>
+<tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">We know that's not what you were hoping to hear. If you'd like to talk it through, or you think we've missed something, just reply to this email &mdash; there's a real person on the other end and we're happy to take another look.</td></tr>
+<tr><td align="center" style="padding:26px 40px 8px;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td align="center" bgcolor="#2A2528" style="border-radius:999px;">
+      <a href="{{ order_status_url }}" style="display:block; padding:15px 40px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#FAF7F3; text-decoration:none; border-radius:999px;">View my order</a>
+    </td>
+  </tr></table>
+</td></tr>
+<tr><td class="fluid-pad" style="padding:22px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">Warmly,<br><strong style="color:#2A2528;">Katie &amp; the Little Windmill team</strong></td></tr>
+<tr><td class="fluid-pad" style="padding:18px 44px 40px; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; line-height:1.65; color:#8E8A7E;">Questions? Just reply to this email &mdash; it comes straight to us, and we read every one.</td></tr>
+</table>
+<table role="presentation" width="600" class="container" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; margin-top:26px;">
+<tr><td align="center" style="padding:0 20px 20px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:1.7; color:#8E8A7E;">
+<p style="margin:0 0 8px; font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-size:15px; color:#6E7E6C;">&ldquo;the best days end in dirty clothes.&rdquo;</p>
+<p style="margin:0 0 6px;">Little Windmill Clothing Co. &middot; Scone &amp; Tamworth, NSW</p>
+<p style="margin:0;"><a href="{{ shop.url }}" style="color:#6E7E6C; text-decoration:underline;">littlewindmillclothingco.com</a></p>
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>
