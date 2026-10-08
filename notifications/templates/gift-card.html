@@ -25,7 +25,7 @@
 <tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">Hi {{ first_name }},</td></tr>
 <tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">{% if gift_card.initial_value %}Here's your <strong>{{ gift_card.initial_value | money }}</strong> Little Windmill gift card.{% else %}Here's your Little Windmill gift card.{% endif %} We hope it brings a smile.</td></tr>
 {% if gift_card.message %}<tr><td class="fluid-pad" style="padding:18px 44px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F6F1EA; border-radius:12px;"><tr><td style="padding:20px 24px; text-align:center; font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-size:17px; line-height:1.6; color:#2A2528;">&ldquo;{{ gift_card.message }}&rdquo;</td></tr></table></td></tr>
-{% endif %}<tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">Tap the button below to see your gift card and its code, then pop the code in at checkout when you're ready to choose something lovely.{% if gift_card.last_four_characters %} Your card ends in <strong>{{ gift_card.last_four_characters }}</strong>.{% endif %}</td></tr>
+{% endif %}<tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#4A4347;">Tap the button below to see your gift card and its code. Use it online at checkout, or show it to us in store at Scone or Tamworth, when you're ready to choose something lovely.{% if gift_card.last_four_characters %} Your card ends in <strong>{{ gift_card.last_four_characters }}</strong>.{% endif %}</td></tr>
 {% if gift_card.expires_on %}<tr><td class="fluid-pad" style="padding:10px 44px 0; text-align:center; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; line-height:1.65; color:#8E8A7E;">Please use it by <strong>{{ gift_card.expires_on | date: '%-d %B %Y' }}</strong>.</td></tr>
 {% endif %}<tr><td align="center" style="padding:26px 40px 8px;">
   <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
@@ -41,7 +41,7 @@
 <table role="presentation" width="600" class="container" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; margin-top:26px;">
 <tr><td align="center" style="padding:0 20px 20px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:1.7; color:#8E8A7E;">
 <p style="margin:0 0 8px; font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-size:15px; color:#6E7E6C;">&ldquo;the best days end in dirty clothes.&rdquo;</p>
-<p style="margin:0 0 6px;">Little Windmill Clothing Co. &middot; Scone &amp; Tamworth, NSW</p>
+<p style="margin:0 0 6px;">Little Windmill Clothing Co.<br>Scone: Shop 5, 167 Kelly Street, NSW 2337 &middot; Tamworth: Shop 5, 345-354 Peel Street, NSW 2340</p>
 <p style="margin:0;"><a href="{{ shop.url }}" style="color:#6E7E6C; text-decoration:underline;">littlewindmillclothingco.com</a></p>
 </td></tr>
 </table>
