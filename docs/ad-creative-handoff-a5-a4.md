@@ -21,7 +21,7 @@ Refresh two fatiguing ads with new creative that adds a story, a hook, a badge a
 
 Spend and cost per purchase are arithmetically consistent. Figures are Meta-attributed and not reconciled with Shopify orders. The CTR drop is real. That the audience is "bored of the look" is a plausible reading, not proven.
 
-**Where the ads sit: OPEN.** The campaign has five ad sets (4. Retargeting - AUS, 3. Her & Mini - AUS, 2. Blue Plaid Dad - AUS, 1. Whole Family - AUS, and Broad AU). I could not confirm which one holds A5 and A4. Retargeting is a guess, not a finding.
+**Build target: DECIDED (19 Oct).** New ads go in **4. Retargeting - AUS**, created PAUSED. The campaign has five ad sets (4. Retargeting - AUS, 3. Her & Mini - AUS, 2. Blue Plaid Dad - AUS, 1. Whole Family - AUS, and Broad AU). I could not confirm which one currently holds A5 and A4, so check this when the ads are built.
 
 ---
 
@@ -33,7 +33,9 @@ Spend and cost per purchase are arithmetically consistent. Figures are Meta-attr
 | A5 card 4 text | "Hand-finished steer skull detail" is removed. Proposed replacement: **"Soft cotton. Little details."** (from the Tully collection copy). OPEN: confirm or choose another line. |
 | A4 heroes are not in the Tully Collection | See section 5. Needs a decision. |
 | Darla women's shirt | Archived and out of stock. Do not feature it. |
-| Carousel card count | Brief says "6-card carousel" but lists cards 1 to 6 plus a CTA card. OPEN: 6 cards (CTA merged into card 6) or 7 cards? |
+| Carousel card count | **DECIDED: 7 cards.** Cards 1 to 6 as listed, plus a separate CTA card. |
+| A4 range | **DECIDED: Tully-based.** Deep red Mini Match is out of this round. |
+| Unconfirmed claims held back | "Bundle and save", "Aussie designed" and "family-made" were not confirmed. They stay out of all copy and badges until confirmed (see section 9). |
 
 ---
 
@@ -59,7 +61,7 @@ Spend and cost per purchase are arithmetically consistent. Figures are Meta-attr
 - **Type:** Fraunces (headlines), Archivo (utility text), a stamp keyline. Token values to be supplied by the brand file (no hex codes are recorded in this brief).
 - **Photography:** real kids and families outdoors, natural light, rural cues (paddock, timber, fence). No studio flat-lays. Avoid the corrugated-iron wall used in the current A4.
 - **Voice:** warm, story-driven, family-first. No hard-sell language.
-- **Badges (consistent use):** reviews, best seller, bundle and save, Aussie designed, family-made. OPEN: each badge must be true for every product it appears on, and "bundle and save" needs a live offer.
+- **Badges (consistent use):** reviews and best seller are the working set for now. "Bundle and save", "Aussie designed" and "family-made" are on hold until confirmed; each badge must be true for every product it appears on, and "bundle and save" needs a live offer. OPEN: confirm "reviews" and "best seller" are backed by real store data before use.
 - **Imagery of children:** use the owner's existing Shopify photos only. No generated or synthetic images of children. Where an existing photo is only a stand-in, label it "PLACEHOLDER" in the file name.
 
 ---
@@ -110,10 +112,10 @@ Goal: keep the craftsmanship close-ups, turn the carousel into a story.
 |---|---|---|
 | 1 (hook) | Macro of fabric, buttons, piping (reuse or reshoot) | Hook A, B or C |
 | 2 | Close-up of buttons and placket | "Real wooden-look buttons". OPEN: confirm wood or wood-look and use the true wording. |
-| 3 | Close-up of yoke piping and collar | "Stitched to be lived in and passed down". OPEN: confirm claim. |
+| 3 | Close-up of yoke piping and collar | "Stitched to be lived in and passed down" (CONFIRMED by owner). |
 | 4 | Close-up of embroidery detail | "Soft cotton. Little details." (proposed). No embroidery name. |
-| 5 (human) | Existing photo of a real child outdoors in a Tully piece | None, or a small "Aussie designed" badge (OPEN: confirm) |
-| 6 (family) | Tully family together, baby to dad | "Match the whole crew" plus bundle and save badge (OPEN: confirm offer) |
+| 5 (human) | Existing photo of a real child outdoors in a Tully piece | None. No badge until "Aussie designed" is confirmed. |
+| 6 (family) | Tully family together, baby to dad | "Match the whole crew". No bundle and save badge until the offer is confirmed. |
 | CTA | Collection hero | "Shop the Tully Collection", button: Shop Now |
 
 Accuracy rule: describe only what the garments actually have. Every proof line is checked against the product before use.
@@ -126,7 +128,7 @@ Destination: https://littlewindmillclothingco.com/collections/the-tully-collecti
 | A5-B | Can't find country kids' clothes that last? | Problem | Problem-aware |
 | A5-C | Stitched to be lived in and passed down. | Proof | Product-aware |
 
-OPEN: "A year in the making" needs confirming for the Tully collection.
+"A year in the making" is CONFIRMED by owner.
 
 Suggested primary text: "Tully. A year in the making. Soft gingham, done our way. Made to fit real life, and country enough to show off your lifestyle. Shop the full collection now."
 Suggested headline: The Tully Collection, Now Live.
@@ -135,10 +137,7 @@ Suggested headline: The Tully Collection, Now Live.
 
 ## 7. Concept B: A4 Baby Rompers ("Mini Match", story version)
 
-**OPEN decision: which range?**
-
-- **Option 1 (recommended): Tully-based.** Heroes from the Tully rompers (Tully Baby, Bobby, Mae Baby, Peta). Landing page: the Tully collection. Keeps one campaign story, avoids the Ky Baby and Darla stock problems, and matches the brown gingham the current A4 shows. The hooks stay; "Deep Red Mini Match" drops out of the copy.
-- **Option 2: Deep red Mini Match.** Heroes Nicco Baby, Carl and Albie (Darla excluded). Needs a landing page that is not the Tully collection, and a check that Nicco is gingham before the word is used.
+**DECIDED: Tully-based.** Heroes from the Tully rompers (Tully Baby, Bobby, Mae Baby, Peta). Landing page: the Tully collection (https://littlewindmillclothingco.com/collections/the-tully-collection). This keeps one campaign story, avoids the Ky Baby and Darla stock problems, and matches the brown gingham the current A4 shows. "Deep Red Mini Match" drops out of the copy. The deep red Mini Match option (Nicco, Carl, Albie) is parked for a later round.
 
 Common to both: new location and new family; outdoor, natural light, a rural cue; not the corrugated-iron wall. On image: one hook line, one badge, a visible Shop Now. Statics in 4:5 and 9:16.
 
@@ -150,7 +149,8 @@ Common to both: new location and new family; outdoor, natural light, a rural cue
 
 Suggested primary text: see original brief. OPEN items in it:
 - "Four kids, a property, and not a single shop…": confirm "a property" is accurate.
-- "Dad's shirt. Mum's shirt. The big kid's. And one teeny matching romper…": under Option 1, rewrite to name the Tully pieces; under Option 2, remove Darla.
+- "Dad's shirt. Mum's shirt. The big kid's. And one teeny matching romper…": rewrite to name the Tully pieces (for example the Tully men's shirt, Mae dress, Robert shirt and a Tully romper), not the deep red range.
+- Hook A4-C ("Match the whole crew. Bundle and save.") is **on hold** until the bundle offer is confirmed. Without the offer, "Match the whole crew." can run alone.
 - Suggested headline: "Made by a country mum, for country kids."
 
 ---
@@ -166,15 +166,22 @@ After delivery: upload to Meta and build new ads in campaign 120252494369960220,
 
 ---
 
-## 9. Open decisions (blocking)
+## 9. Decisions and open items
 
-1. A4 range: Tully-based (Option 1) or deep red Mini Match (Option 2).
-2. Which ad set to build in (OPEN; Retargeting is only a guess).
-3. Carousel length: 6 or 7 cards.
-4. Card 4 line: "Soft cotton. Little details." or another.
-5. Confirm or cut each proof claim: "wooden-look buttons" wording, "stitched to be lived in and passed down", "A year in the making", "Aussie designed", "family-made", "bundle and save" offer.
-6. "A property" in the A4 founder copy.
-7. Tully stock by size for any product promoted.
+**Decided (owner, 19 Oct 2026)**
+- A4 range: Tully-based.
+- Build in ad set 4. Retargeting - AUS.
+- A5 carousel: 7 cards.
+- Confirmed claims: "Stitched to be lived in and passed down", "A year in the making".
+
+**Still open (blocking design or launch)**
+1. Card 4 line: "Soft cotton. Little details." or another.
+2. "Real wooden-look buttons": confirm wood or wood-look and use the true wording.
+3. On hold until confirmed: "Aussie designed" and "family-made" badges, the bundle and save offer and badge (this also holds hook A4-C's second sentence).
+4. "Reviews" and "best seller" badges: confirm they are backed by real store data.
+5. "A property" in the A4 founder copy, and "Made by a country mum" as the A4 headline.
+6. Tully stock by size for any product promoted.
+7. Photo selects from Shopify for A5 card 5, card 6 and the A4 heroes (none opened yet).
 8. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
 
 ## 10. Limits
