@@ -21,7 +21,39 @@ Refresh two fatiguing ads with new creative that adds a story, a hook, a badge a
 
 Spend and cost per purchase are arithmetically consistent. Figures are Meta-attributed and not reconciled with Shopify orders. The CTR drop is real. That the audience is "bored of the look" is a plausible reading, not proven.
 
-**Build target: DECIDED (19 Oct).** New ads go in **4. Retargeting - AUS**, created PAUSED. The campaign has five ad sets (4. Retargeting - AUS, 3. Her & Mini - AUS, 2. Blue Plaid Dad - AUS, 1. Whole Family - AUS, and Broad AU). I could not confirm which one currently holds A5 and A4, so check this when the ads are built.
+**Build targets: DECIDED (19 Oct), new ads created PAUSED.**
+- A5 refresh goes in **4. Retargeting - AUS** (adset 120252623404650220), where A5 currently sits.
+- A4 refresh goes in **3. Her & Mini - AUS** (adset 120252623250010220), where A4 currently sits, so results compare like with like.
+
+Ad set map (read from Meta on 19 Oct; ad sets: 1. Whole Family, 2. Blue Plaid Dad, 3. Her & Mini, 4. Retargeting, and Broad AU):
+
+| Ad set | Live ads |
+|---|---|
+| 4. Retargeting - AUS | A5 - The Details (Carousel); R1 Match the whole crew; R2 Every stitch, on purpose; R3 Founder story |
+| 3. Her & Mini - AUS | A4 - Baby Rompers; A3 Her and Her Mini (A3 "NEEDS CREATIVE" copy is paused) |
+| 2. Blue Plaid Dad - AUS | A2 Blue Plaid; A2 Blue Plaid Dad; New Sales Ad and Message |
+| 1. Whole Family - AUS | A1 Whole Family |
+| Broad AU | Tully Collection - Their First Show Outfit; video - tully; Now Live Feed 4x5; Now Live Story 9x16 |
+
+---
+
+## 1a. What the live ads say now (read from Meta, 19 Oct)
+
+| Ad | What it carries |
+|---|---|
+| A5 carousel | 5 cards (Piped western yoke, Our bull head embroidery, Mini gingham frills, Navy piped placket, Ruffle stand collar) plus an end card; Shop Now to the Tully collection. Text covers piping on the yoke, mini gingham inside the collar, bull head embroidery and hidden elastic, and says "Designed by our family, in Australia's Upper Hunter". |
+| A4 | One 4:5 image that Meta auto-crops for Stories and Reels (a centre crop, not a 9:16 design). **No primary text, headline or description.** Shop Now. Link tag: `utm_content=a1`. |
+| R1 Match the whole crew | "Same print, every size, all the family. The Tully Collection is gingham, plaid and denim for the whole crew, from baby to dad." Headline: Match the whole crew. |
+| R2 Every stitch, on purpose | "Soft cotton, our bull head embroidery and little details, made for days out in the yard and the photos that come after." |
+| R3 Founder story | "Four kids, a property, and not a single shop selling the kind of country clothes I wanted to put them in. So I started Little Windmill." Headline: I couldn't find it, so I made it. |
+
+Consequences for this round:
+- **Overlap is accepted.** R1 and R3 already carry the messages behind hooks A4-C and A4-A. The new ads keep those proven messages and refresh the visuals; the CTR drop is about the look. This is a judgement call, not a tested result.
+- "A property" is already live in R3 and is treated as accurate.
+- Bull head embroidery appears in live A5 and R2 copy. New ads leave it out per the owner. Live ads are not edited.
+- Tracking: A4 uses `utm_source=meta&utm_medium=paid&utm_campaign=tully_launch&utm_content=a1`; the R-ads use `utm_source=facebook&utm_medium=paid_social&utm_campaign=tully-retargeting&utm_content=r1-match-the-whole-crew` style tags. Give every new ad its own unique `utm_content`.
+- A4 has no copy at all today, so the new A4 ads need primary text, a headline and the hook line.
+- The new 9:16 files should be real 9:16 designs, not crops of the 4:5.
 
 ---
 
@@ -172,21 +204,23 @@ After delivery: upload to Meta and build new ads in campaign 120252494369960220,
 - A4 range: Tully-based.
 - Build in ad set 4. Retargeting - AUS.
 - A5 carousel: 7 cards.
-- Confirmed claims: "Stitched to be lived in and passed down", "A year in the making".
+- Confirmed claims: "Stitched to be lived in and passed down", "A year in the making". "A property" is already live in R3 and treated as accurate.
+- A5 refresh in 4. Retargeting; A4 refresh in 3. Her & Mini.
+- Keep the proven messages behind R1 and R3, with fresh visuals.
 
 **Still open (blocking design or launch)**
 1. Card 4 line: "Soft cotton. Little details." or another.
 2. "Real wooden-look buttons": confirm wood or wood-look and use the true wording.
 3. On hold until confirmed: "Aussie designed" and "family-made" badges, the bundle and save offer and badge (this also holds hook A4-C's second sentence).
 4. "Reviews" and "best seller" badges: confirm they are backed by real store data.
-5. "A property" in the A4 founder copy, and "Made by a country mum" as the A4 headline.
+5. "Made by a country mum, for country kids" as the A4 headline (not yet in any live ad).
 6. Tully stock by size for any product promoted.
 7. Photo selects from Shopify for A5 card 5, card 6 and the A4 heroes (none opened yet).
 8. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
 
 ## 10. Limits
 
-- Meta's creative content could not be read this session (the creative lookup failed), so the current A5 and A4 creatives are known only from the brief's two reference images and descriptions.
+- Live ad copy and structure were read through a second Meta connector on 19 Oct; the primary Meta creative lookup returned a 502. No creative images were opened, so what A5 and A4 look like is still known only from the brief's two reference images.
 - Existing live ads cannot have their image swapped in Meta; every new image is a new ad.
 - Only one frame of the A5 carousel was analysed.
 - Results are Meta-attributed and not reconciled with Shopify orders.
