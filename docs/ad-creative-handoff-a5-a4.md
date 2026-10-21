@@ -93,8 +93,8 @@ Consequences for this round:
 - **Type:** Fraunces (headlines), Archivo (utility text), a stamp keyline. Token values to be supplied by the brand file (no hex codes are recorded in this brief).
 - **Photography:** real kids and families outdoors, natural light, rural cues (paddock, timber, fence). No studio flat-lays. Avoid the corrugated-iron wall used in the current A4.
 - **Voice:** warm, story-driven, family-first. No hard-sell language.
-- **Wording rule (owner, 21 Oct):** never write "made" in new copy or on-image text; always say "designed". So "Made by a country mum" becomes "Designed by a country mum", "So I made them" becomes "So I designed them", "Designed to fit real life" becomes "Designed to fit real life", and the "family-made" badge becomes **"family-designed"**. This applies to new ads only; live ads (for example R3) are not edited.
-- **Badges (consistent use):** **reviews** (confirmed), **Aussie designed** (confirmed) and **family-designed** (confirmed) are the working set. "Best seller" is not confirmed and stays out. "Bundle and save" is on hold until a live offer is confirmed. Each badge must be true for every product it appears on.
+- **Wording rule (owner, 21 Oct):** never write "made" in new copy or on-image text; always say "designed". So "Made by a country mum" becomes "Designed by a country mum", "So I made them" becomes "So I designed them", "Made to fit real life" becomes "Designed to fit real life", and the "family-made" badge becomes **"family-designed"**. This applies to new ads only; live ads (for example R3) are not edited.
+- **Badges (consistent use):** **reviews**, **best seller**, **Aussie designed** and **family-designed** are the working set (all confirmed by the owner). **Best seller** is live and confirmed (owner, 21 Oct). "Bundle and save" is not live, so it stays out of all copy and badges. Each badge must be true for every product it appears on.
 - **Imagery of children:** use the owner's existing Shopify photos only. No generated or synthetic images of children. Where an existing photo is only a stand-in, label it "PLACEHOLDER" in the file name.
 
 ---
@@ -119,7 +119,7 @@ Collection copy: "Same print, every size, all the family." Gingham, plaid and de
 | "Chay" Country Tiered Girl's Skirt | 45.99 | 148.jpg |
 | Hair Bows | 3.00 | LWCC-13_ad6fbb77-e1da-4f9b-a4ed-ddd84e150d39.jpg |
 
-**Not checked: Tully stock by size.** Only the first variant of each product was returned. Check stock before promoting any size or product.
+**Sizes (owner, 21 Oct):** promote the full ranges: baby from 000 (collection copy says 000 to 2), kids 1 to 14, men's XS to 3XL, ladies 6 to 22. I did not check stock size by size myself; only the first variant of each product was returned.
 
 I have not opened these photos: the sandbox's network policy blocked `cdn.shopify.com` on 21 Oct. Whether each has a rural setting, a real child, or the corrugated-iron wall is unknown. Owner direction (21 Oct): use something from existing design creatives, or the Shopify product photos listed here; selection still has to be made by someone who can see the images.
 
@@ -144,11 +144,11 @@ Goal: keep the craftsmanship close-ups, turn the carousel into a story.
 | Card | Visual | On-image text |
 |---|---|---|
 | 1 (hook) | Macro of fabric, buttons, piping (reuse or reshoot) | Hook A, B or C |
-| 2 | Close-up of buttons and placket | "Real wooden-look buttons". OPEN: confirm wood or wood-look and use the true wording. |
+| 2 | Close-up of buttons and placket | "Real wooden-look buttons" is dropped (owner: change entirely). Proposed replacement, taken from the live A5 card title: **"Navy piped placket"**. OPEN: confirm this line, or give another. |
 | 3 | Close-up of yoke piping and collar | "Stitched to be lived in and passed down" (CONFIRMED by owner). |
 | 4 | Close-up of embroidery detail | "Little details." No embroidery name. |
 | 5 (human) | Existing photo of a real child outdoors in a Tully piece | None, or a small "Aussie designed" badge. |
-| 6 (family) | Tully family together, baby to dad | "Match the whole crew". No bundle and save badge until the offer is confirmed. |
+| 6 (family) | Tully family together, baby to dad | "Match the whole crew". No bundle and save badge: that offer is not live. |
 | CTA | Collection hero | "Shop the Tully Collection", button: Shop Now |
 
 Accuracy rule: describe only what the garments actually have. Every proof line is checked against the product before use.
@@ -178,13 +178,13 @@ Common to both: new location and new family; outdoor, natural light, a rural cue
 |---|---|---|---|
 | A4-A | I couldn't find Western clothes for my own kids. So I designed them. | Founder story | Problem-aware |
 | A4-B | Matching photos, minus the matching-outfit hunt. | Problem | Problem-aware |
-| A4-C | Match the whole crew. Bundle and save. | Offer | Most-aware |
+| A4-C | Match the whole crew. | Range | Product-aware |
 
 Suggested primary text: see original brief. OPEN items in it:
 - "Four kids, a property, and not a single shop…": confirm "a property" is accurate.
 - "Dad's shirt. Mum's shirt. The big kid's. And one teeny matching romper…": rewrite to name the Tully pieces (for example the Tully men's shirt, Mae dress, Robert shirt and a Tully romper), not the deep red range.
-- Hook A4-C ("Match the whole crew. Bundle and save.") is **on hold** until the bundle offer is confirmed. Without the offer, "Match the whole crew." can run alone.
-- Suggested headline: "Designed by a country mum, for country kids." (wording rule applied; not yet in any live ad, so still needs owner OK as a headline)
+- Hook A4-C is now "Match the whole crew." alone: the bundle offer is not live, so "Bundle and save" is dropped.
+- Suggested headline: "Designed by a country mum, for country kids." (wording rule applied; approved by the owner as a headline on 21 Oct)
 
 ---
 
@@ -207,16 +207,17 @@ After delivery: upload to Meta and build new ads in campaign 120252494369960220,
 - A5 carousel: 7 cards. Card 4 text: "Little details."
 - Confirmed claims: "Stitched to be lived in and passed down", "A year in the making". "A property" is already live in R3 and treated as accurate.
 - Keep the proven messages behind R1 and R3, with fresh visuals.
-- Badges confirmed: reviews, Aussie designed, family-designed. Never write "made"; always "designed".
+- Badges confirmed: reviews, best seller, Aussie designed, family-designed. Never write "made"; always "designed".
+- "Bundle and save" is not live: out of all copy and badges; hook A4-C is "Match the whole crew." alone.
+- A4 headline "Designed by a country mum, for country kids" approved.
+- Card 2 text "Real wooden-look buttons" dropped.
+- Sizes to promote: baby from 000, kids 1 to 14, men's XS to 3XL, ladies 6 to 22.
 - Photos: use existing design creatives or the Shopify product photos.
 
 **Still open (blocking design or launch)**
-1. "Real wooden-look buttons": confirm wood or wood-look and use the true wording.
-2. "Best seller" badge: not confirmed. "Bundle and save" offer: not confirmed (also holds the second sentence of hook A4-C).
-3. A4 headline "Designed by a country mum, for country kids": confirm it can go in an ad.
-4. Tully stock by size for any product promoted.
-5. Photo selects for A5 cards 5 and 6 and the A4 heroes: still to be made from images someone can see (none opened yet).
-6. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
+1. Card 2 line: "Navy piped placket" (from the live A5 card title) is proposed; confirm or give another.
+2. Photo selects for A5 cards 5 and 6 and the A4 heroes: still to be made from images someone can see (none opened yet; the sandbox blocks `cdn.shopify.com`).
+3. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
 
 ## 10. Limits
 
