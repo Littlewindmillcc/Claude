@@ -121,7 +121,7 @@ Collection copy: "Same print, every size, all the family." Gingham, plaid and de
 
 **Sizes (owner, 21 Oct):** promote the full ranges: baby from 000 (collection copy says 000 to 2), kids 1 to 14, men's XS to 3XL, ladies 6 to 22. I did not check stock size by size myself; only the first variant of each product was returned.
 
-I have not opened these photos: the sandbox's network policy blocked `cdn.shopify.com` on 21 Oct. Whether each has a rural setting, a real child, or the corrugated-iron wall is unknown. Owner direction (21 Oct): use something from existing design creatives, or the Shopify product photos listed here; selection still has to be made by someone who can see the images.
+All 11 photos were viewed on 21 Oct after `cdn.shopify.com` was allowed; see section 5a. Owner direction (21 Oct): use something from existing design creatives, or the Shopify product photos listed here.
 
 ### Products named in the original A4 brief (not in the Tully Collection)
 
@@ -137,6 +137,48 @@ These belong to the deep red "Western Christmas" range, not the Tully launch.
 
 ---
 
+## 5a. Photo shortlist (all 11 Tully photos viewed 21 Oct)
+
+All are the owner's own Shopify product photos, used as they are (cropped, never altered or generated). File names are the Shopify names; image links are in the Shopify product pages.
+
+| Photo | What it shows |
+|---|---|
+| collection_47 (1334x2000) | Mum holding baby, a boy and a girl either side, all in matching brown gingham, dry paddock and gum trees, timber stool |
+| tully-baby_LWCC-130 (1826x2738) | Toddler on a timber chair, blue plaid long-sleeve shirt, navy piped placket, navy buttons, denim-look shorts |
+| bobby_60 (1200x1800) | Baby on weathered timber boards, brown check long-sleeve romper, gingham-trimmed placket, wooden-look buttons |
+| mae-baby_72 (1200x1800) | Baby in brown gingham flutter romper with gingham-frill sleeves, a toddler in brown check behind, timber background |
+| peta_145 (1200x1800) | Baby in denim-look flutter romper with plaid-frill sleeves, older girl behind, dry grass, golden light |
+| robert_LWCC-57 (1826x2738) | Boy leaning on a farm gate in brown gingham shirt with wooden-look buttons, jeans, timber shed behind |
+| tully-boy_LWCC-136 (1826x2738) | Close crop of boy in blue plaid shirt, navy piped placket, navy buttons, chest pocket (face in the top of frame) |
+| tully-mens_154 (1200x1800) | Dad holding baby in denim-look flutter romper with plaid frills, golden paddock, fence rails |
+| mae-dress_LWCC-98 (1826x2738) | Mum holding baby in brown gingham flutter romper, wire gate, tree, timber rail, golden light |
+| miss-mae_25 (1200x1800) | Girl in brown gingham dress with wooden-look buttons and gingham trim, hand on a pony's face, timber rail fence, boots |
+| chay_148 (1200x1800) | Girl from behind in denim-look tiered skirt with plaid-trimmed tiers, cream ribbed top, boots, golden paddock |
+
+**Proposed slots (owner to approve)**
+
+| Slot | Photo | Crop note |
+|---|---|---|
+| A5 card 1 (hook) | robert_LWCC-57 | Chest crop: gingham, wooden-look buttons, gingham-trimmed placket; no face |
+| A5 card 2, "Denim-look navy piped placket" | tully-boy_LWCC-136 | Crop on the navy piped placket and buttons; keep the face out |
+| A5 card 3, "Stitched to be lived in and passed down" | mae-dress_LWCC-98 | Crop on the mum's piped yoke and collar, below the face |
+| A5 card 4, "Little details." | chay_148 | Crop on the plaid-trimmed denim tiers; no face |
+| A5 card 5 (human moment) | miss-mae_25 | Full photo; girl, pony and fence give the paddock cue |
+| A5 card 6, "Match the whole crew" | collection_47 | Full photo; no single photo has the whole family from baby to dad |
+| A5 CTA card | tully-mens_154 | Dad and baby fills the "baby to dad" gap |
+| A4-A (founder story) | mae-dress_LWCC-98 | Mum and baby in a Tully romper |
+| A4-B (matching photos) | tully-mens_154 | Dad's plaid shirt and the baby's plaid frills match |
+| A4-C (match the whole crew) | collection_47 | Four people in matching gingham |
+
+**Things to know before design**
+- None of the 11 photos shows the corrugated-iron wall. Two show a farm gate and one a timber shed, which suit the rural cue.
+- The same people appear across several photos, and may be the family in the current A4 (I have only seen the brief's description of A4). The brief asks for a new family, which these photos cannot give; that would need new photography.
+- Sizes: most are 2:3 portrait. 4:5 (1080x1350) is a light crop top and bottom. 9:16 (1080x1920) needs a side crop; the 1200x1800 files need a slight upscale (about 7%), so the 1826x2738 files are better for 9:16.
+- For 9:16, keep faces and key text out of roughly the top 250 px and bottom 340 px.
+- Real children appear in most photos. Keep text off faces and never alter or generate children's images.
+
+---
+
 ## 6. Concept A: A5 Carousel ("The Details", story version)
 
 Goal: keep the craftsmanship close-ups, turn the carousel into a story.
@@ -144,7 +186,7 @@ Goal: keep the craftsmanship close-ups, turn the carousel into a story.
 | Card | Visual | On-image text |
 |---|---|---|
 | 1 (hook) | Macro of fabric, buttons, piping (reuse or reshoot) | Hook A, B or C |
-| 2 | Close-up of buttons and placket | "Real wooden-look buttons" is dropped (owner: change entirely). Proposed replacement, taken from the live A5 card title: **"Navy piped placket"**. OPEN: confirm this line, or give another. |
+| 2 | Close-up of buttons and placket | "Real wooden-look buttons" is dropped (owner: change entirely). Replacement line (DECIDED by owner, 21 Oct): **"Denim-look navy piped placket"** (based on the live A5 card title "Navy piped placket", with the denim look added at the owner's request). |
 | 3 | Close-up of yoke piping and collar | "Stitched to be lived in and passed down" (CONFIRMED by owner). |
 | 4 | Close-up of embroidery detail | "Little details." No embroidery name. |
 | 5 (human) | Existing photo of a real child outdoors in a Tully piece | None, or a small "Aussie designed" badge. |
@@ -210,14 +252,13 @@ After delivery: upload to Meta and build new ads in campaign 120252494369960220,
 - Badges confirmed: reviews, best seller, Aussie designed, family-designed. Never write "made"; always "designed".
 - "Bundle and save" is not live: out of all copy and badges; hook A4-C is "Match the whole crew." alone.
 - A4 headline "Designed by a country mum, for country kids" approved.
-- Card 2 text "Real wooden-look buttons" dropped.
+- Card 2 text: "Real wooden-look buttons" dropped; now "Denim-look navy piped placket".
 - Sizes to promote: baby from 000, kids 1 to 14, men's XS to 3XL, ladies 6 to 22.
 - Photos: use existing design creatives or the Shopify product photos.
 
 **Still open (blocking design or launch)**
-1. Card 2 line: "Navy piped placket" (from the live A5 card title) is proposed; confirm or give another.
-2. Photo selects for A5 cards 5 and 6 and the A4 heroes: still to be made from images someone can see (none opened yet; the sandbox blocks `cdn.shopify.com`).
-3. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
+1. Photo shortlist (section 5a): owner to approve or change the slots. A new family for A4 would need new photography.
+2. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
 
 ## 10. Limits
 
@@ -225,4 +266,4 @@ After delivery: upload to Meta and build new ads in campaign 120252494369960220,
 - Existing live ads cannot have their image swapped in Meta; every new image is a new ad.
 - Only one frame of the A5 carousel was analysed.
 - Results are Meta-attributed and not reconciled with Shopify orders.
-- I have not opened any Shopify photos. The sandbox blocked downloads from `cdn.shopify.com`.
+- I viewed the 11 Tully photos but no images from the live ads or other design creatives.
