@@ -144,7 +144,7 @@ Goal: keep the craftsmanship close-ups, turn the carousel into a story.
 | Card | Visual | On-image text |
 |---|---|---|
 | 1 (hook) | Macro of fabric, buttons, piping (reuse or reshoot) | Hook A, B or C |
-| 2 | Close-up of buttons and placket | "Real wooden-look buttons" is dropped (owner: change entirely). Proposed replacement, taken from the live A5 card title: **"Navy piped placket"**. OPEN: confirm this line, or give another. |
+| 2 | Close-up of buttons and placket | "Real wooden-look buttons" is dropped (owner: change entirely). Replacement line (DECIDED by owner, 21 Oct): **"Denim-look navy piped placket"** (based on the live A5 card title "Navy piped placket", with the denim look added at the owner's request). |
 | 3 | Close-up of yoke piping and collar | "Stitched to be lived in and passed down" (CONFIRMED by owner). |
 | 4 | Close-up of embroidery detail | "Little details." No embroidery name. |
 | 5 (human) | Existing photo of a real child outdoors in a Tully piece | None, or a small "Aussie designed" badge. |
@@ -210,14 +210,13 @@ After delivery: upload to Meta and build new ads in campaign 120252494369960220,
 - Badges confirmed: reviews, best seller, Aussie designed, family-designed. Never write "made"; always "designed".
 - "Bundle and save" is not live: out of all copy and badges; hook A4-C is "Match the whole crew." alone.
 - A4 headline "Designed by a country mum, for country kids" approved.
-- Card 2 text "Real wooden-look buttons" dropped.
+- Card 2 text: "Real wooden-look buttons" dropped; now "Denim-look navy piped placket".
 - Sizes to promote: baby from 000, kids 1 to 14, men's XS to 3XL, ladies 6 to 22.
 - Photos: use existing design creatives or the Shopify product photos.
 
 **Still open (blocking design or launch)**
-1. Card 2 line: "Navy piped placket" (from the live A5 card title) is proposed; confirm or give another.
-2. Photo selects for A5 cards 5 and 6 and the A4 heroes: still to be made from images someone can see (none opened yet; the sandbox blocks `cdn.shopify.com`).
-3. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
+1. Photo selects for A5 cards 5 and 6 and the A4 heroes: still to be made from images someone can see (none opened yet; the sandbox blocks `cdn.shopify.com`).
+2. Brand look and delivery format preferences (visual pages, Word, Canva) have not been set.
 
 ## 10. Limits
 
