@@ -1,3 +1,60 @@
+# Ad build sheet: A5 carousel and A4 romper refresh
+
+**Prepared:** 9 November 2026. Source of truth for decisions: `docs/ad-creative-handoff-a5-a4.md`. See the status section at the end for what has and has not been created in Meta.
+
+## Images (4:5 = 1080x1350, 9:16 = 1080x1920)
+
+Every image is a Shopify product or library photo, cropped and given a cream text card; nothing is generated or altered. No Shop Now button is baked in, because Meta adds its own (as in R1 to R3). In 9:16 all text sits above the bottom 340 px.
+
+| File | Photo (Shopify file) | On-image text | Badges |
+|---|---|---|---|
+| A5-A_card1_4x5 | LWCC-63 (shirt crop) | A year in the making. Soft gingham, done our way. | none |
+| A5-B_card1_4x5 | LWCC-63 | Can't find country kids' clothes that last? | none |
+| A5-C_card1_4x5 | LWCC-63 | Stitched to be lived in and passed down. | none |
+| A5_card2_4x5 | tully-boy (LWCC-136) | Denim-look navy piped placket | none |
+| A5_card3_4x5 | LWCC-114 | Stitched to be lived in and passed down | none |
+| A5_card4_4x5 | LWCC-148 | Little details. | none |
+| A5_card5_4x5 | miss-mae (25.jpg) | none | Aussie designed |
+| A5_card6_4x5 | LWCC-124 | Match the whole crew. | Family-designed |
+| A5_card7_4x5 | LWCC-134 | Shop the Tully Collection | none |
+| A4-A_4x5, _9x16 | mae-dress (LWCC-98) | I couldn't find Western clothes for my own kids. So I designed them. | Aussie designed, 5.0 reviews (18) |
+| A4-B_4x5, _9x16 | LWCC-154 | Matching photos, minus the matching-outfit hunt. | Aussie designed, 5.0 reviews (18) |
+| A4-C_4x5, _9x16 | LWCC-134 | Match the whole crew. | Family-designed |
+
+Badge PNGs: aussie-designed, family-designed, best-seller, reviews_5.0-18, reviews_4.92-13. "Best seller" is confirmed live but not used on any image yet. "Bundle and save" is not live and is not used.
+
+## Meta fields
+
+Wording rule: never "made", always "designed". Destination for all: https://littlewindmillclothingco.com/collections/the-tully-collection. Button: Shop Now. Each ad has its own `utm_content`.
+
+**A5 refresh: ad set 4. Retargeting - AUS** (UTM style: `utm_source=facebook&utm_medium=paid_social&utm_campaign=tully-retargeting&utm_content=<id>`)
+
+| Ad name | Primary text | Headline | Description | utm_content |
+|---|---|---|---|---|
+| R4 \| A5-A A year in the making \| Carousel | Tully. A year in the making. Soft gingham, done our way. Designed to fit real life, and country enough to show off your lifestyle. Shop the full collection now. | The Tully Collection, Now Live | Aussie designed | r4-a5-a-year-in-the-making |
+| R5 \| A5-B Country kids clothes that last \| Carousel | Can't find country kids' clothes that last? The Tully Collection is gingham, plaid and denim for the whole family, soft cotton with little details. Limited first run: once a size is gone, it's gone. | The Tully Collection, Now Live | Aussie designed | r5-a5-b-clothes-that-last |
+| R6 \| A5-C Lived in and passed down \| Carousel | Stitched to be lived in and passed down. Same print, every size, all the family. Shop the Tully Collection. | The Tully Collection, Now Live | Family-designed | r6-a5-c-passed-down |
+
+Carousel: cards 1 to 7 in order. Card 1 is the variant's own image; cards 2 to 7 are shared. Card 3's text repeats variant C's card 1 text.
+
+**A4 refresh: ad set 3. Her & Mini - AUS** (UTM style as the live A4: `utm_source=meta&utm_medium=paid&utm_campaign=tully_launch&utm_content=<id>`)
+
+| Ad name | Primary text | Headline | Description | utm_content |
+|---|---|---|---|---|
+| A4-A \| Founder story \| Image | Four kids, and not a single shop selling the kind of country clothes I wanted to put them in. So I started Little Windmill. Every piece is designed to be lived in and passed down. | Designed by a country mum, for country kids. | Aussie designed | a4-a-founder |
+| A4-B \| Matching photos \| Image | Dad's shirt. Mum's dress. The big kid's shirt. And one teeny matching romper for the baby. Same print, every size, so family photos just got a whole lot cuter. | Matching photos, minus the hunt. | Same print, every size | a4-b-matching |
+| A4-C \| Match the whole crew \| Image | Baby to dad, one print in every size. Soft cotton, little details, designed to be lived in and passed down. | Match the whole crew. | Family-designed | a4-c-whole-crew |
+
+Both 4:5 and 9:16 images go on each A4 ad (placement-specific assets).
+
+## Before launch
+
+1. Re-pull Judge.me ratings (5.0 from 18 for Mae Baby and Peta; 4.92 from 13 for Tully Baby, Bobby, Robert and Tully Boy, as of 9 Nov) and rebuild the reviews badges if they change. The reviews badge on A4-A and A4-B assumes the romper in the photo is Mae Baby / Peta.
+2. Confirm stock by size for the products shown.
+3. A4-C's message overlaps live R1 ("Match the whole crew"); A4-A overlaps live R3 (founder story). Accepted by the owner as a visual refresh.
+4. The same family appears in these photos and may be the family in the current A4; a new family needs new photography.
+5. Live R2 and A5 copy still say "bull head embroidery" and R1 to R3 still use "made"; they are unchanged by this work.
+6. Live R3 copy has typos ("more then", "Love + treasured + remembered..", "To then = Pass down").
 
 ## Status, 9 November 2026
 
